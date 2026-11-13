@@ -1,0 +1,11 @@
+[tools]
+node = "6"
+
+[tasks.check]
+run = "git diff --check"
+
+[tasks.build]
+run = "npm run build"
+
+[tasks.test]
+run = "npm run test"
